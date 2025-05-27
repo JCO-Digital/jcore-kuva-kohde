@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9812e93e2576c69763fd9414bd297d2",
+    "content-hash": "6c6ffb0775960259691143f3608879c5",
     "packages": [
         {
             "name": "jcore/ydin",
