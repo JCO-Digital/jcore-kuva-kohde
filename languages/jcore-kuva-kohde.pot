@@ -1,0 +1,35 @@
+# Copyright (C) 2025 JCO Digital
+# This file is distributed under the same license as the JCORE Focal Point plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: JCORE Focal Point 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kuva-kohde\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-27T19:09:15+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: jcore-focal-point\n"
+
+#. Plugin Name of the plugin
+msgid "JCORE Focal Point"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/jco-digital/jcore-kuva-kohde"
+msgstr ""
+
+#. Description of the plugin
+msgid "JCORE Focal Point module."
+msgstr ""
+
+#. Author of the plugin
+msgid "JCO Digital"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://jco.fi"
+msgstr ""
