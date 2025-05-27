@@ -29,7 +29,7 @@ function register_focal_point_meta(): void {
 	foreach ( $post_types as $post_type ) {
 		register_post_meta(
 			$post_type,
-			'featured_image_focal_point',
+			'jcore_focal_point',
 			$args
 		);
 	}

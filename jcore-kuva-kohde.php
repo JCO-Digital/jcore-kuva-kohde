@@ -21,6 +21,7 @@ if ( is_file( __DIR__ . '/vendor/autoload.php' ) ) {
 require_once __DIR__ . '/consts.php';
 require_once __DIR__ . '/includes/scripts.php';
 require_once __DIR__ . '/includes/meta.php';
+require_once __DIR__ . '/includes/parser.php';
 
 FocalPoint\Bootstrap::init();
 
