@@ -3,7 +3,7 @@
  * Plugin Name: JCORE Focal Point
  * Plugin URI: https://github.com/jco-digital/jcore-kuva-kohde
  * Description: JCORE Focal Point module.
- * Version: 0.1.0
+ * Version: 0.2.0
  * Author: JCO Digital
  * Author URI: https://jco.fi
  * Text Domain: jcore-focal-point
