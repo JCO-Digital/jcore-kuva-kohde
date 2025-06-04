@@ -8,7 +8,7 @@ namespace Jcore\FocalPoint\Meta;
  * @return void
  */
 function register_focal_point_meta(): void {
-	$args       = array(
+	$args = array(
 		'show_in_rest' => array(
 			'schema' => array(
 				'type'       => 'object',
@@ -25,13 +25,11 @@ function register_focal_point_meta(): void {
 		'single'       => true,
 		'type'         => 'object',
 	);
-	$post_types = array( 'post' );
-	foreach ( $post_types as $post_type ) {
-		register_post_meta(
-			$post_type,
-			'jcore_focal_point',
-			$args
-		);
-	}
+
+	register_post_meta(
+		'',
+		'jcore_focal_point',
+		$args
+	);
 }
 add_action( 'init', __NAMESPACE__ . '\register_focal_point_meta' );

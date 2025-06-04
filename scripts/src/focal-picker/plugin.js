@@ -6,7 +6,16 @@ import { PluginPostStatusInfo } from '@wordpress/editor';
 import { FocalPointPicker } from '@wordpress/components';
 
 export const FeaturedFocalPointPickerPanel = () => {
-	const [meta, setMeta] = useEntityProp('postType', 'post', 'meta');
+	const postType = useSelect((select) => {
+		const editor = select('core/editor');
+		return editor.getCurrentPostType();
+	});
+
+	if (!postType) {
+		return null;
+	}
+
+	const [meta, setMeta] = useEntityProp('postType', postType, 'meta');
 
 	// We are not in a post.
 	if (!meta) {
