@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/JCO-Digital/jcore-kuva-kohde/compare/v0.2.1...v0.3.0) (2025-06-04)
+
+
+### Features
+
+* **focal-point:** focal point is now shown for all post types. ✨ ([5d28871](https://github.com/JCO-Digital/jcore-kuva-kohde/commit/5d2887163bc65e9b033d722ee6a73dc6ffbdacae))
+
+
+
 ## [0.2.1](https://github.com/JCO-Digital/jcore-kuva-kohde/compare/v0.2.0...v0.2.1) (2025-05-27)
 
 
