@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/JCO-Digital/jcore-kuva-kohde/compare/v0.3.0...v0.3.1) (2025-06-11)
+
+
+### Bug Fixes
+
+* **focal-point:** hooks cannot be run after conditions 🐛 ([6728d1e](https://github.com/JCO-Digital/jcore-kuva-kohde/commit/6728d1ed1c2c2b83a37d93481d60f3cc66529229))
+
+
+
 # [0.3.0](https://github.com/JCO-Digital/jcore-kuva-kohde/compare/v0.2.1...v0.3.0) (2025-06-04)
 
 
