@@ -11,16 +11,7 @@ export const FeaturedFocalPointPickerPanel = () => {
 		return editor.getCurrentPostType();
 	});
 
-	if (!postType) {
-		return null;
-	}
-
 	const [meta, setMeta] = useEntityProp('postType', postType, 'meta');
-
-	// We are not in a post.
-	if (!meta) {
-		return null;
-	}
 
 	const imageObj = useSelect((select) => {
 		const editor = select('core/editor');
@@ -32,6 +23,14 @@ export const FeaturedFocalPointPickerPanel = () => {
 	const setFeaturedImageMeta = (val) => {
 		setMeta({ ...meta, jcore_focal_point: val });
 	};
+
+	if (!postType) {
+		return null;
+	}
+
+	if (!meta) {
+		return null;
+	}
 
 	if (!url) {
 		return null;
