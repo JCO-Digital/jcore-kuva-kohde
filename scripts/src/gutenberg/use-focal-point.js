@@ -12,7 +12,7 @@ import { EXTENDED_BLOCKS } from './consts';
  *
  * @return {function} BlockEdit Modified block edit component.
  */
-const withAdvancedControls = createHigherOrderComponent((BlockEdit) => {
+const withFocalPointControl = createHigherOrderComponent((BlockEdit) => {
 	return (props) => {
 		if (!EXTENDED_BLOCKS.includes(props.name)) {
 			return <BlockEdit {...props} />;
@@ -46,6 +46,10 @@ const withAdvancedControls = createHigherOrderComponent((BlockEdit) => {
 			</>
 		);
 	};
-}, 'withAdvancedControls');
+}, 'withFocalPointControl');
 
-addFilter('editor.BlockEdit', 'jcore/focal-point-editor', withAdvancedControls);
+addFilter(
+	'editor.BlockEdit',
+	'jcore/focal-point-editor',
+	withFocalPointControl
+);

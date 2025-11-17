@@ -40,7 +40,7 @@ jobs:
                   push: false
 
             - name: Conventional Changelog Action
-              uses: TriPSs/conventional-changelog-action@v3
+              uses: TriPSs/conventional-changelog-action@v6
               with:
                   github-token: ${{ secrets.MASTER_PAT }}
                   version-file: './version.json'

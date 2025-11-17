@@ -9,6 +9,6 @@ module.exports = {
 	...defaultConfig,
 	entry: {
 		...getWebpackEntryPoints(),
-		'focal-point': './src/index.js',
+		'focal-point-editor': './src/editor.js',
 	},
 };
