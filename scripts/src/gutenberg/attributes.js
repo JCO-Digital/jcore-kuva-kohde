@@ -29,3 +29,23 @@ addFilter(
 	'jcore/focal-point-attributes',
 	addAttributes
 );
+
+function addCoreImageAttributes(settings) {
+	if (
+		typeof settings.attributes !== 'undefined' &&
+		settings.name === 'core/image'
+	) {
+		settings.attributes = Object.assign(settings.attributes, {
+			focalPoint: {
+				type: 'object',
+			},
+		});
+	}
+	return settings;
+}
+
+addFilter(
+	'blocks.registerBlockType',
+	'jcore/core-image-focal-point-attributes',
+	addCoreImageAttributes
+);

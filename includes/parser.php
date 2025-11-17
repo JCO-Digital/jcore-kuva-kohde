@@ -100,3 +100,53 @@ function add_focal_point_to_cover_block( $block_content, $block ) {
 	return $processor->get_updated_html();
 }
 add_filter( 'render_block', __NAMESPACE__ . '\add_focal_point_to_cover_block', 10, 2 );
+
+
+/**
+ * Add the focal point to the image.
+ *
+ * @param string $block_content The HTML output of the image block.
+ * @param array  $block The block data.
+ *
+ * @return string The modified HTML output of the image.
+ */
+function add_focal_point_to_image( $block_content, $block ) {
+	if ( 'core/image' !== $block['blockName'] ) {
+		return $block_content;
+	}
+
+	$attributes = $block['attrs'];
+
+	if ( ! is_array( $attributes ) ) {
+		return $block_content;
+	}
+
+	if ( ! isset( $attributes['focalPoint'] ) || ! $attributes['focalPoint'] ) {
+		return $block_content;
+	}
+
+	$focal_point = $attributes['focalPoint'];
+
+	if ( empty( $focal_point ) || ! is_array( $focal_point ) ) {
+		return $block_content;
+	}
+
+	$style     = sprintf( 'object-position: %d%% %d%%;', $focal_point['x'] * 100, $focal_point['y'] * 100 );
+	$processor = new WP_HTML_Tag_Processor( $block_content );
+
+	if ( $processor->next_tag( 'img' ) ) {
+		$current_style = $processor->get_attribute( 'style' );
+
+		if ( empty( $current_style ) ) {
+			$processor->set_attribute( 'style', $style );
+		} else {
+			$current_style  = rtrim( rtrim( $current_style, ';' ), ' ' );
+			$current_style .= ';';
+
+			$processor->set_attribute( 'style', $current_style . $style );
+		}
+	}
+
+	return $processor->get_updated_html();
+}
+add_filter( 'render_block', __NAMESPACE__ . '\add_focal_point_to_image', 10, 2 );
