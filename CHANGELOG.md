@@ -1,3 +1,20 @@
+# [1.0.0](https://github.com/JCO-Digital/jcore-kuva-kohde/compare/v0.3.1...v1.0.0) (2025-11-17)
+
+
+* feat!: update to use latest ydin version and latest conventional-commit-action version ([758d209](https://github.com/JCO-Digital/jcore-kuva-kohde/commit/758d209258fcb0cb489b5590a3b1991d0fc98a07))
+
+
+### Features
+
+* **focal-point:** add focal point functionality to core image block if cover style is selected ([3410d26](https://github.com/JCO-Digital/jcore-kuva-kohde/commit/3410d2611d815a62f469fb28bb515850a65ea0da))
+
+
+### BREAKING CHANGES
+
+* jcore-ydin updated v3 -> v4 and conventional-commit-action v3->v6
+
+
+
 ## [0.3.1](https://github.com/JCO-Digital/jcore-kuva-kohde/compare/v0.3.0...v0.3.1) (2025-06-11)
 
 
