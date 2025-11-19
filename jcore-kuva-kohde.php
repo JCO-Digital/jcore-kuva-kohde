@@ -22,6 +22,7 @@ require_once __DIR__ . '/consts.php';
 require_once __DIR__ . '/includes/scripts.php';
 require_once __DIR__ . '/includes/meta.php';
 require_once __DIR__ . '/includes/parser.php';
+require_once __DIR__ . '/includes/twig.php';
 
 FocalPoint\Bootstrap::init();
 
