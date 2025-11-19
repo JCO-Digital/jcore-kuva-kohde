@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/JCO-Digital/jcore-kuva-kohde/compare/v1.0.1...v1.1.0) (2025-11-19)
+
+
+### Features
+
+* **twig:** add post_focal_styles function to retrieve focal styles for posts ([9c62a07](https://github.com/JCO-Digital/jcore-kuva-kohde/commit/9c62a072c85412c90c7af3947c024df3f2f0db5b))
+
+
+
 ## [1.0.1](https://github.com/JCO-Digital/jcore-kuva-kohde/compare/v1.0.0...v1.0.1) (2025-11-17)
 
 
@@ -39,16 +48,6 @@
 ### Features
 
 * **focal-point:** focal point is now shown for all post types. ✨ ([5d28871](https://github.com/JCO-Digital/jcore-kuva-kohde/commit/5d2887163bc65e9b033d722ee6a73dc6ffbdacae))
-
-
-
-## [0.2.1](https://github.com/JCO-Digital/jcore-kuva-kohde/compare/v0.2.0...v0.2.1) (2025-05-27)
-
-
-### Bug Fixes
-
-* **repo:** update composer as well ([53bff9d](https://github.com/JCO-Digital/jcore-kuva-kohde/commit/53bff9d0905586cd5f6e0b97d72c88726d5e05ec))
-* update package name from jcore/kohde-kuva to jcore/kuva-kohde ([0832033](https://github.com/JCO-Digital/jcore-kuva-kohde/commit/0832033296871b14d1344bb1168cff5c5df38987))
 
 
 
