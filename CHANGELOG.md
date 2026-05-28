@@ -1,6 +1,12 @@
 # Changelog
 
-### 1.2.3 (2026-05-28)
+### 1.2.4 (2026-05-28)
+
+#### Maintenance
+
+- metadata: update plugin requirements and compatibility versions (6ba3106)
+
+### v1.2.3 (2026-05-28)
 
 #### Refactor
 
