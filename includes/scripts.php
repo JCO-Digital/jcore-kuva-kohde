@@ -2,10 +2,10 @@
 /**
  * Scripts
  *
- * @package Jcore\FocalPoint\Scripts
+ * @package Jcore\KuvaKohde\Scripts
  */
 
-namespace Jcore\FocalPoint\Scripts;
+namespace Jcore\KuvaKohde\Scripts;
 
 /**
  * Enqueue wp-scripts built asset & dependencies in build directory.

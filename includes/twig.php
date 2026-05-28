@@ -2,10 +2,10 @@
 /**
  * Twig functions for the kuva-kohde plugin.
  *
- * @package Jcore\FocalPoint\Twig
+ * @package Jcore\KuvaKohde\Twig
  */
 
-namespace Jcore\FocalPoint\Twig;
+namespace Jcore\KuvaKohde\Twig;
 
 /**
  * Add a function to the Timber/Twig environment to get the focal styles for a post.

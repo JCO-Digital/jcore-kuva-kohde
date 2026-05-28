@@ -1,6 +1,6 @@
 <?php // phpcs:ignore WordPress.Files.FileName.InvalidClassFileName
 
-namespace Jcore\FocalPoint\Meta;
+namespace Jcore\KuvaKohde\Meta;
 
 /**
  * Registers the focal point meta field for all post types.

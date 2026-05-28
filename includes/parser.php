@@ -2,10 +2,10 @@
 /**
  * Parses the extended blocks and adds the focal point to the image.
  *
- * @package Jcore\FocalPoint\Parser
+ * @package Jcore\KuvaKohde\Parser
  */
 
-namespace Jcore\FocalPoint\Parser;
+namespace Jcore\KuvaKohde\Parser;
 
 use WP_HTML_Tag_Processor;
 

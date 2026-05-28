@@ -1,6 +1,6 @@
 <?php // phpcs:ignore WordPress.Files.FileName.InvalidClassFileName
 
-namespace Jcore\FocalPoint;
+namespace Jcore\KuvaKohde;
 
 use Jcore\Ydin\BootstrapInterface;
 

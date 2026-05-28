@@ -1,18 +1,18 @@
 <?php
 /**
- * Plugin Name: JCORE Focal Point
+ * Plugin Name: JCORE Kuva Kohde
  * Plugin URI: https://github.com/jco-digital/jcore-kuva-kohde
  * Description: JCORE Focal Point module.
  * Version: 1.2.1
  * Author: JCO Digital
  * Author URI: https://jco.fi
- * Text Domain: jcore-focal-point
+ * Text Domain: jcore-kuva-kohde
  * Domain Path: /languages
  *
- * @package Jcore\FocalPoint
+ * @package Jcore\KuvaKohde
  */
 
-use Jcore\FocalPoint;
+use Jcore\KuvaKohde;
 use Jcore\Update\Config\UpdateConfig;
 use Jcore\Update\Hooks\PluginUpdateHooks;
 use Jcore\Update\Support\PluginHelper;
