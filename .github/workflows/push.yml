@@ -32,8 +32,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
+      - uses: shivammathur/setup-php@v2
+        if: ${{ inputs.build }}
+        with:
+          php-version: "8.2"
+          tools: composer
+
       - name: Build project
-        run: make
+        run: make ci
 
       - name: Commit built blocks
         uses: EndBug/add-and-commit@v9
