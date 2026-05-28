@@ -4,6 +4,9 @@
  * Plugin URI: https://github.com/jco-digital/jcore-kuva-kohde
  * Description: JCORE Focal Point module.
  * Version: 1.2.2
+ * Requires at least: 6.7
+ * Tested up to:      7.0
+ * Requires PHP:      8.2
  * Author: JCO Digital
  * Author URI: https://jco.fi
  * Text Domain: jcore-kuva-kohde
