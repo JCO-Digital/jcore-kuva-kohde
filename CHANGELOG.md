@@ -1,6 +1,12 @@
 # Changelog
 
-## 1.2.0 (2026-05-28)
+### 1.2.1 (2026-05-28)
+
+#### Build System
+
+- deps: update jcore-update and integrate plugin update hooks (3343118)
+
+## v1.2.0 (2026-05-28)
 
 #### Features
 
