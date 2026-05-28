@@ -13,12 +13,24 @@
  */
 
 use Jcore\FocalPoint;
+use Jcore\Update\Config\UpdateConfig;
+use Jcore\Update\Hooks\PluginUpdateHooks;
+use Jcore\Update\Support\PluginHelper;
 
 if ( is_file( __DIR__ . '/vendor/autoload_packages.php' ) ) {
 	require_once __DIR__ . '/vendor/autoload_packages.php';
 }
 
 require_once __DIR__ . '/consts.php';
+
+$jcore_focal_point_config = new UpdateConfig(
+	__FILE__,
+	'jcore-kuva-kohde',
+	PluginHelper::getVersion( __FILE__ ),
+	'https://update.jcore.fi/v1'
+);
+( new PluginUpdateHooks( $jcore_focal_point_config ) )->register();
+
 require_once __DIR__ . '/includes/scripts.php';
 require_once __DIR__ . '/includes/meta.php';
 require_once __DIR__ . '/includes/parser.php';
