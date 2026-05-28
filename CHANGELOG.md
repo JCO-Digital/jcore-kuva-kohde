@@ -1,6 +1,12 @@
 # Changelog
 
-### 1.2.2 (2026-05-28)
+### 1.2.3 (2026-05-28)
+
+#### Refactor
+
+- namespace: rename plugin namespace from FocalPoint to KuvaKohde (ef77ca3)
+
+### v1.2.2 (2026-05-28)
 
 #### Build System
 
