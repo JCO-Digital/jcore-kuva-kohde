@@ -1,5 +1,5 @@
 {
-	"name": "jcore/kuva-kohde",
+	"name": "jcodigital/jcore-kuva-kohde",
 	"description": "JCORE Focal Point module",
 	"type": "wordpress-plugin",
 	"license": "GPL-2.0-only",
@@ -15,12 +15,15 @@
 		}
 	],
 	"require": {
+		"automattic/jetpack-autoloader": "^2",
+		"jcodigital/jcore-update": "^1.0",
 		"jcore/ydin": "^3 || ^4"
 	},
 	"config": {
 		"allow-plugins": {
 			"composer/installers": true,
-			"dealerdirect/phpcodesniffer-composer-installer": true
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"automattic/jetpack-autoloader": true
 		}
 	},
 	"require-dev": {

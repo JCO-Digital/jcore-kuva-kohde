@@ -1,6 +1,13 @@
 .PHONY: all
 all: install build
 
+.PHONY: ci
+ci: ci-install build
+
+.PHONY: ci-install
+ci-install: scripts-install
+	composer install --no-dev
+
 .PHONY: install
 install: composer-install scripts-install
 
@@ -32,3 +39,8 @@ scripts-dev:
 .PHONY: make-pot
 make-pot:
 	wp i18n make-pot . languages/jcore-kuva-kohde.pot
+
+.PHONY: release
+release:
+	mkdir -p release
+	zip release/jcore-kuva-kohde.zip -r * -x@.zipexclude
