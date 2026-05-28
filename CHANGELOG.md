@@ -1,6 +1,12 @@
 # Changelog
 
-### 1.2.1 (2026-05-28)
+### 1.2.2 (2026-05-28)
+
+#### Build System
+
+- deps: remove automattic/jetpack-autoloader (d915993)
+
+### v1.2.1 (2026-05-28)
 
 #### Build System
 
