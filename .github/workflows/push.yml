@@ -36,7 +36,6 @@ jobs:
     if: needs.release.outputs.is_bumped == 'true'
     uses: JCO-Digital/jcore-update/.github/workflows/reusable-plugin-publish.yml@main
     with:
-      build: false
       slug: "jcore-kuva-kohde"
       version: ${{ needs.release.outputs.version }}
       release_notes: ${{ needs.release.outputs.release_notes }}
