@@ -15,11 +15,14 @@
  * @package Jcore\KuvaKohde
  */
 
+use Jcore\FocalPoint;
 use Jcore\Update\Config\UpdateConfig;
 use Jcore\Update\Hooks\PluginUpdateHooks;
 use Jcore\Update\Support\PluginHelper;
 
-if ( is_file( __DIR__ . '/vendor/autoload.php' ) ) {
+if ( is_file( __DIR__ . '/vendor/autoload_packages.php' ) ) {
+	require_once __DIR__ . '/vendor/autoload_packages.php';
+} elseif ( is_file( __DIR__ . '/vendor/autoload.php' ) ) {
 	require_once __DIR__ . '/vendor/autoload.php';
 }
 

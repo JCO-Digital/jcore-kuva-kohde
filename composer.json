@@ -15,8 +15,7 @@
 		}
 	],
 	"require": {
-		"jcodigital/jcore-update": "^1.0",
-		"jcore/ydin": "^3 || ^4"
+		"jcodigital/jcore-update": "^1.0"
 	},
 	"config": {
 		"allow-plugins": {

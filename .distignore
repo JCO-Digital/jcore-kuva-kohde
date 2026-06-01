@@ -3,3 +3,5 @@
 .zipexclude
 release
 Makefile
+scripts/src
+scripts/node_modules
