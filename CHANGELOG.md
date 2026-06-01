@@ -1,6 +1,13 @@
 # Changelog
 
-### 1.2.4 (2026-05-28)
+### 1.2.5 (2026-06-01)
+
+#### Maintenance
+
+- deps: remove ydin dependency and update build ignore rules (8002f14)
+- repo: update configuration and CI workflow (bc07e71)
+
+### v1.2.4 (2026-05-28)
 
 #### Maintenance
 
