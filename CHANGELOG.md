@@ -1,6 +1,12 @@
 # Changelog
 
-### 1.2.6 (2026-06-01)
+### 1.2.7 (2026-06-01)
+
+#### Refactor
+
+- namespace: rename namespace from Jcore\FocalPoint to Jcore\KuvaKohde (6349bf3)
+
+### v1.2.6 (2026-06-01)
 
 #### Continuous Integration
 
