@@ -1,6 +1,12 @@
 # Changelog
 
-### 1.2.9 (2026-06-01)
+### 1.2.10 (2026-06-01)
+
+#### Maintenance
+
+- ignore version.json in distribution builds (b4edb11)
+
+### v1.2.9 (2026-06-01)
 
 #### Continuous Integration
 

@@ -3,7 +3,7 @@
  * Plugin Name: JCORE Kuva Kohde
  * Plugin URI: https://github.com/jco-digital/jcore-kuva-kohde
  * Description: JCORE Focal Point module.
- * Version: 1.2.9
+ * Version: 1.2.10
  * Requires at least: 6.7
  * Tested up to:      7.0
  * Requires PHP:      8.2
