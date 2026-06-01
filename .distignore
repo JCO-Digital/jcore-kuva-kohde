@@ -3,6 +3,7 @@
 .zipexclude
 release
 Makefile
+vendor
 scripts/src
 scripts/node_modules
 scripts/.babelrc
