@@ -1,6 +1,12 @@
 # Changelog
 
-### 1.2.5 (2026-06-01)
+### 1.2.6 (2026-06-01)
+
+#### Continuous Integration
+
+- github: remove unused build input from publish workflow (3467946)
+
+### v1.2.5 (2026-06-01)
 
 #### Maintenance
 
