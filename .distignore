@@ -1,0 +1,5 @@
+.github
+.idea
+.zipexclude
+release
+Makefile

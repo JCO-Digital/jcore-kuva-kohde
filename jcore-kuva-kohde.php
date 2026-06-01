@@ -15,7 +15,6 @@
  * @package Jcore\KuvaKohde
  */
 
-use Jcore\KuvaKohde;
 use Jcore\Update\Config\UpdateConfig;
 use Jcore\Update\Hooks\PluginUpdateHooks;
 use Jcore\Update\Support\PluginHelper;
