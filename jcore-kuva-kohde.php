@@ -15,7 +15,7 @@
  * @package Jcore\KuvaKohde
  */
 
-use Jcore\FocalPoint;
+use Jcore\KuvaKohde\Bootstrap;
 use Jcore\Update\Config\UpdateConfig;
 use Jcore\Update\Hooks\PluginUpdateHooks;
 use Jcore\Update\Support\PluginHelper;
@@ -41,7 +41,7 @@ require_once __DIR__ . '/includes/meta.php';
 require_once __DIR__ . '/includes/parser.php';
 require_once __DIR__ . '/includes/twig.php';
 
-FocalPoint\Bootstrap::init();
+Bootstrap::init();
 
 add_action(
 	'init',
