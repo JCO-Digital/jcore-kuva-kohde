@@ -1,6 +1,16 @@
 # Changelog
 
-### 1.2.8 (2026-06-01)
+### 1.2.9 (2026-06-01)
+
+#### Continuous Integration
+
+- github: upgrade foonver to v0.13.3 (cb2c4df)
+
+#### Maintenance
+
+- ignore vendor directory in distribution builds (aa5b9e1)
+
+### v1.2.8 (2026-06-01)
 
 #### Maintenance
 
