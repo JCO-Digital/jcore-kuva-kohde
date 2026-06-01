@@ -1,6 +1,12 @@
 # Changelog
 
-### 1.2.7 (2026-06-01)
+### 1.2.8 (2026-06-01)
+
+#### Maintenance
+
+- scripts: remove build artifacts and update ignores (da3c2cd)
+
+### v1.2.7 (2026-06-01)
 
 #### Refactor
 
