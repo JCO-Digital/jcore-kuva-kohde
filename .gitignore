@@ -3,3 +3,5 @@ vendor/
 # Log files
 *.log
 release/
+scripts/build
+scripts/node_modules

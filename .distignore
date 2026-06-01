@@ -5,3 +5,9 @@ release
 Makefile
 scripts/src
 scripts/node_modules
+scripts/.babelrc
+scripts/.editorconfig
+scripts/.npmrc
+scripts/package.json
+scripts/pnpm-lock.yaml
+scripts/webpack.config.js
