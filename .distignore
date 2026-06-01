@@ -4,6 +4,7 @@
 release
 Makefile
 vendor
+version.json
 scripts/src
 scripts/node_modules
 scripts/.babelrc
