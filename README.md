@@ -19,11 +19,11 @@ A WordPress plugin that adds a focal point picker to the featured image of any p
 
 The plugin filters `render_block` for three core blocks:
 
-| Block | Behaviour |
-| --- | --- |
+| Block                      | Behaviour                                                                                                    |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | `core/post-featured-image` | Adds `object-fit: cover; object-position: X% Y%` to the image and the `has-focal-point` class to the figure. |
-| `core/cover` | Uses the post focal point when the block shows the featured image and has no focal point of its own. |
-| `core/image` | Applies the block's own focal point as `object-position`. |
+| `core/cover`               | Uses the post focal point when the block shows the featured image and has no focal point of its own.         |
+| `core/image`               | Applies the block's own focal point as `object-position`.                                                    |
 
 ### In Twig
 
@@ -34,11 +34,11 @@ The plugin registers a `kuva_kohde_focal_styles` function in Timber:
 <div style="background-image: url({{ post.thumbnail.src }}); {{ kuva_kohde_focal_styles(post, { x: 0.5, y: 0.5 }, 'background') }}"></div>
 ```
 
-| Argument | Default | Description |
-| --- | --- | --- |
-| `post` | | A post object or post ID. |
-| `default` | `{ x: 0.5, y: 0.5 }` | Point used when the post has no focal point. |
-| `type` | `'object-position'` | `object-position` (or `object`) and `background-position` (or `background`). |
+| Argument  | Default              | Description                                                                  |
+| --------- | -------------------- | ---------------------------------------------------------------------------- |
+| `post`    |                      | A post object or post ID.                                                    |
+| `default` | `{ x: 0.5, y: 0.5 }` | Point used when the post has no focal point.                                 |
+| `type`    | `'object-position'`  | `object-position` (or `object`) and `background-position` (or `background`). |
 
 It returns a single CSS declaration, for example `object-position: 30% 60%`.
 
