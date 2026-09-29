@@ -1,5 +1,5 @@
 parser = "all"
-version-sync = ["jcore-kuva-kohde.php", "readme.txt"]
+version-sync = ["jcore-kuva-kohde.php", "readme.txt", "scripts/package.json"]
 changelog = true
 changelog-format = "wordpress"
 changelog-file = "readme.txt"
