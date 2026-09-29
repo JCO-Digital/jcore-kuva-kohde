@@ -4,7 +4,7 @@ Tags: focal point, images, featured image, cover, block editor
 Requires at least: 6.7
 Tested up to: 7.0
 Requires PHP: 8.2
-Stable tag: 1.2.11
+Stable tag: 1.2.12
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -62,7 +62,11 @@ The Cover block only uses the post focal point when it is set to use the feature
 
 == Changelog ==
 
-= 1.2.11 (2026-09-29) =
+= 1.2.12 (2026-09-29) =
+
+* CI: Update workflow configuration and version sync
+
+= v1.2.11 (2026-09-29) =
 
 * Documentation: readme - rewrite readme.txt, add README.md and foonver changelog config
 * Build: deps - update jcore-update to 1.7.0
