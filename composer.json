@@ -2,7 +2,7 @@
 	"name": "jcodigital/jcore-kuva-kohde",
 	"description": "JCORE Focal Point module",
 	"type": "wordpress-plugin",
-	"license": "GPL-2.0-only",
+	"license": "GPL-2.0-or-later",
 	"autoload": {
 		"psr-4": {
 			"Jcore\\KuvaKohde\\": "classes/"

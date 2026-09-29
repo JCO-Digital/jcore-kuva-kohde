@@ -1,0 +1,6 @@
+parser = "all"
+version-sync = ["jcore-kuva-kohde.php", "readme.txt"]
+changelog = true
+changelog-format = "wordpress"
+changelog-file = "readme.txt"
+changelog-start = "== Changelog =="
