@@ -4,7 +4,7 @@ Tags: focal point, images, featured image, cover, block editor
 Requires at least: 6.7
 Tested up to: 7.0
 Requires PHP: 8.2
-Stable tag: 1.2.10
+Stable tag: 1.2.11
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -62,13 +62,19 @@ The Cover block only uses the post focal point when it is set to use the feature
 
 == Changelog ==
 
+= 1.2.11 (2026-09-29) =
+
+* Documentation: readme - rewrite readme.txt, add README.md and foonver changelog config
+* Build: deps - update jcore-update to 1.7.0
+* CI: github - Update foonver action configuration
+
 = v1.2.10 (2026-06-01) =
 
 * Maintenance: ignore version.json in distribution builds
 
 = v1.2.9 (2026-06-01) =
 
-* Continuous Integration: github - upgrade foonver to v0.13.3
+* CI: github - upgrade foonver to v0.13.3
 * Maintenance: ignore vendor directory in distribution builds
 
 = v1.2.8 (2026-06-01) =
@@ -81,7 +87,7 @@ The Cover block only uses the post focal point when it is set to use the feature
 
 = v1.2.6 (2026-06-01) =
 
-* Continuous Integration: github - remove unused build input from publish workflow
+* CI: github - remove unused build input from publish workflow
 
 = v1.2.5 (2026-06-01) =
 
@@ -107,9 +113,9 @@ The Cover block only uses the post focal point when it is set to use the feature
 = v1.2.0 (2026-05-28) =
 
 * Feature: ci - implement release automation and publishing pipeline
-* Continuous Integration: github - update foonver version and add protected branch push step
-* Continuous Integration: github - update version sync target in workflow
-* Continuous Integration: github - add php environment to build workflow
+* CI: github - update foonver version and add protected branch push step
+* CI: github - update version sync target in workflow
+* CI: github - add php environment to build workflow
 
 = v1.1.0 (2025-11-19) =
 
@@ -126,11 +132,11 @@ The Cover block only uses the post focal point when it is set to use the feature
 
 = v0.3.1 (2025-06-11) =
 
-* Fix: focal-point - hooks cannot be run after conditions
+* Fix: focal-point - hooks cannot be run after conditions 🐛
 
 = v0.3.0 (2025-06-04) =
 
-* Feature: focal-point - focal point is now shown for all post types
+* Feature: focal-point - focal point is now shown for all post types. ✨
 
 = v0.2.1 (2025-05-27) =
 
@@ -139,5 +145,5 @@ The Cover block only uses the post focal point when it is set to use the feature
 
 = v0.2.0 (2025-05-27) =
 
-* Feature: focal-point - focal point works and adds the focal point styles
+* Feature: focal-point - Focal point works and adds the focal point styles :sparkles:
 * Maintenance: initial commit
