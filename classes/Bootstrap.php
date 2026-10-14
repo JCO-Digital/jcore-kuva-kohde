@@ -2,12 +2,10 @@
 
 namespace Jcore\KuvaKohde;
 
-use Jcore\Ydin\BootstrapInterface;
-
 /**
  * The bootstrap class, should be used by all dependencies.
  */
-class Bootstrap implements BootstrapInterface {
+class Bootstrap {
 	/**
 	 * The singleton instance.
 	 *
