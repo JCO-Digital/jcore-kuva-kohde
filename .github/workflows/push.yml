@@ -38,6 +38,7 @@ jobs:
       version: ${{ needs.release.outputs.version }}
       release_notes: ${{ needs.release.outputs.release_notes }}
       plugin_file: "jcore-kuva-kohde.php"
+      dist_deploy: true
       dist_repo: git@git.jcore.fi:/srv/git/jcore-kuva-kohde.git
       slack_channel: "#jcore_updates"
       pnpm_version: "10.11.0"
