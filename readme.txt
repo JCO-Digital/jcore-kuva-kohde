@@ -4,7 +4,7 @@ Tags: focal point, images, featured image, cover, block editor
 Requires at least: 6.7
 Tested up to: 7.0
 Requires PHP: 8.2
-Stable tag: 1.2.14
+Stable tag: 1.2.15
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -62,7 +62,11 @@ The Cover block only uses the post focal point when it is set to use the feature
 
 == Changelog ==
 
-= 1.2.14 (2026-10-14) =
+= 1.2.15 (2026-11-02) =
+
+* CI: release - keep publishing to the dist repo
+
+= v1.2.14 (2026-10-14) =
 
 * Fix: deps - drop leftover Ydin BootstrapInterface
 
